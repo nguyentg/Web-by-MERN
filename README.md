@@ -1,4 +1,5 @@
 # HƯỚNG DẪN TỪ ĐẦU ĐỂ CHẠY CODE NÀY:
+## Mở 1 tab terminal
 
 $ cd server
 
@@ -10,9 +11,11 @@ $ npm i --save express-validator
 
 $ npm run server
 
-## Mở 1 tab cmd khác, sau đó chạy các lệnh dưới đây:
+## Mở 1 tab cmd khác:
 $ cd client
+
 $ npm i react-bootstrap bootstrap axios react-router-dom
+
 $ npm start
 
 ### Các lần khác, khi muốn chạy code, chỉ cần chạy 4 lệnh dưới đây:
@@ -24,6 +27,7 @@ $ npm start
 ## Tài khoản để đăng nhập
 1. user: nguyen; pass: nguyen
 2. tự tạo mới
+
 
 # Ghi chú riêng:
 $git init
@@ -69,13 +73,13 @@ Trong folder server tạo request.http
 GET http://localhost:5000
 >>>>
 
-# Vào MongoDB 
-<<<
+## Vào MongoDB 
+-----
 mongodb+srv://nguyentg:nguyentg@mern-learnit.kfm1a.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
->>>
+-----
 ${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}
 
-# Bắt đầu front-end
+## Bắt đầu front-end
 - Vào thư mục server
 $touch .gitignore
 ------
