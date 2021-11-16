@@ -1,25 +1,31 @@
-### HƯỚNG DẪN TỪ ĐẦU ĐỂ CHẠY CODE NÀY:
+# HƯỚNG DẪN TỪ ĐẦU ĐỂ CHẠY CODE NÀY:
+
 $ cd server
+
 $ npm i express jsonwebtoken mongoose dotenv argon2 cors
+
 $ npm i --save-dev nodemon : tự động khởi động lại server nếu code bị thay đổi
+
 $ npm i --save express-validator
+
 $ npm run server
-# mở 1 tab cmd khác, sau đó chạy các lệnh dưới đây:
+
+## Mở 1 tab cmd khác, sau đó chạy các lệnh dưới đây:
 $ cd client
 $ npm i react-bootstrap bootstrap axios react-router-dom
 $ npm start
 
-- Các lần khác, khi muốn chạy code, chỉ cần chạy 4 lệnh dưới đây:
+### Các lần khác, khi muốn chạy code, chỉ cần chạy 4 lệnh dưới đây:
 $ cd server
 $npm run server
 $ cd client # Nhớ mở tab terminal mới
 $ npm start
 
-- Tài khoản để đăng nhập
+## Tài khoản để đăng nhập
 1. user: nguyen; pass: nguyen
 2. tự tạo mới
 ========================================================
-========================================================
+========================================================\n
 # Ghi chú riêng:
 $git init
 $mkdir server
