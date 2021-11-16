@@ -24,8 +24,7 @@ $ npm start
 ## Tài khoản để đăng nhập
 1. user: nguyen; pass: nguyen
 2. tự tạo mới
-========================================================
-========================================================\n
+
 # Ghi chú riêng:
 $git init
 $mkdir server
