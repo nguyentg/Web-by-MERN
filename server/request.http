@@ -1,0 +1,74 @@
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "nguyen",
+    "password": "nguyen"
+}
+
+###
+
+POST  http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "nguyen",
+    "password": "nguyen"
+}
+
+
+###
+// lấy accessToken của tài khoản nguyen-nguyen
+POST  http://localhost:5000/api/posts
+Content-Type: application/json 
+
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTM0OTQ0ODIwYzg1NDc0MGE3NWEyNWYiLCJpYXQiOjE2MzQ4MTE1NDh9.ot45-jLyO_0N5ehdVgNFamYKnL6KRy9awD-G7NM9TPo
+{
+    "title": "aws",
+    "description": "- lấy điểm chuyên đề doanh nghiệp
+    - học kiến thức về aws",
+    "url": "https://builditvietnam.org/event/aws-academy-cloud-training-bootcamp",
+    "status": "TO LEARN"
+}
+
+###
+
+GET http://localhost:5000/api/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTM0OTQ0ODIwYzg1NDc0MGE3NWEyNWYiLCJpYXQiOjE2MzQ4MTE1NDh9.ot45-jLyO_0N5ehdVgNFamYKnL6KRy9awD-G7NM9TPo
+
+
+###
+GET http://localhost:5000/api/movies/?id=285
+Content-Type: application/json
+
+
+###
+
+
+PUT http://localhost:5000/api/posts/6137022d2ed6546bab279349
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTM3MDE4MTJlZDY1NDZiYWIyNzkzNDciLCJpYXQiOjE2MzA5OTQ4MTd9.pZpv8tfRFOfw0uXIWNyk_ZgPos0Cwt5qRwpmHYbeeLY
+
+{
+    "title": "Vue",
+    "description": "VUVEEEE",
+    "url": "vuvee.org",
+    "status": "LEARNING"
+}
+
+### 
+
+DELETE http://localhost:5000/api/posts/6137022d2ed6546bab279349
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTM3MDE4MTJlZDY1NDZiYWIyNzkzNDciLCJpYXQiOjE2MzA5OTQ4MTd9.pZpv8tfRFOfw0uXIWNyk_ZgPos0Cwt5qRwpmHYbeeLY
+
+
+### 
+
+GET  http://localhost:5000/api/movie
+
+###
+
+GET  http://localhost:5000/api/movie/616ead425d5e5fb446928e3f
+
+
+###
